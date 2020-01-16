@@ -17,11 +17,28 @@ class FlagCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var countryName: UILabel!
     @IBOutlet weak var countryCapital: UILabel!
     @IBOutlet weak var countryPopulation: UILabel!
-
-    public func configureCell(with country: Country) {
+    
+    func configureCell(with country: Country) {
         
-       
+        countryName.text = country.name
+        countryCapital.text = "Capital: \(country.capital)"
+        countryPopulation.text = "Population: \(country.population.description)"
         
-
+        let imageURL = "https://www.countryflags.io/\(country.alpha2Code)/shiny/64.png"
+        
+        guard let url = URL(string: imageURL) else {
+            fatalError()
+        }
+        
+        FlagImageAPIClient.fetchImageURL(for: url) { [weak self] (result) in
+            switch result {
+            case .failure(let appError):
+                print("error \(appError)")
+            case .success(let image):
+                DispatchQueue.main.async {
+                    self?.flagImageView.image = image
+                }
+            }
+        }
     }
 }
