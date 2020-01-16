@@ -10,10 +10,11 @@ import Foundation
 import NetworkHelper
 
 struct CountryAPIClient {
-    static func getCountries(completion: @escaping (Result<[Country], AppError>) -> ()) {
+    static func getCountries(searchQuery: String, completion: @escaping (Result<[Country], AppError>) -> ()) {
         
+        let searchQuery = searchQuery.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? "Jamaica"
         
-        let endpointURLString = "https://restcountries.eu/rest/v2/name/united"
+        let endpointURLString = "https://restcountries.eu/rest/v2/name/\(searchQuery)"
         
         guard let url = URL(string: endpointURLString) else {
             completion(.failure(.badURL(endpointURLString)))
