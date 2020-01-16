@@ -18,6 +18,7 @@
 		301EC88B23CE518F0023F90E /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 301EC88A23CE518F0023F90E /* ImageKit */; };
 		301EC88F23CE525D0023F90E /* CountryAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EC88E23CE525D0023F90E /* CountryAPIClient.swift */; };
 		301EC89123CE527E0023F90E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EC89023CE527E0023F90E /* Country.swift */; };
+		30B0867E23CFEBAA0086330C /* FlagImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		301EC88723CE4FA00023F90E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		301EC88E23CE525D0023F90E /* CountryAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAPIClient.swift; sourceTree = "<group>"; };
 		301EC89023CE527E0023F90E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImageAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				301EC87323CE4B650023F90E /* SceneDelegate.swift */,
 				301EC89023CE527E0023F90E /* Country.swift */,
 				301EC88E23CE525D0023F90E /* CountryAPIClient.swift */,
+				30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */,
 				301EC87523CE4B650023F90E /* MainViewController.swift */,
 				301EC88523CE4EA50023F90E /* FlagCollectionViewCell.swift */,
 				301EC88723CE4FA00023F90E /* DetailViewController.swift */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301EC88623CE4EA50023F90E /* FlagCollectionViewCell.swift in Sources */,
+				30B0867E23CFEBAA0086330C /* FlagImageAPIClient.swift in Sources */,
 				301EC87623CE4B650023F90E /* MainViewController.swift in Sources */,
 				301EC88823CE4FA00023F90E /* DetailViewController.swift in Sources */,
 				301EC88F23CE525D0023F90E /* CountryAPIClient.swift in Sources */,

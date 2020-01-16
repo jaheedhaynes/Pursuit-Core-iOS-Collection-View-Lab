@@ -18,9 +18,9 @@ class FlagCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var countryCapital: UILabel!
     @IBOutlet weak var countryPopulation: UILabel!
 
-    public func configureCell(with image: Country) {
+    public func configureCell(with country: Country) {
         
-       // let flag = image.flag
+       
         
 
     }
