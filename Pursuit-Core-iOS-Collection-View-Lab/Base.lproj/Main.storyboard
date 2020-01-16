@@ -32,7 +32,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qY1-ol-3fg" customClass="FlagCollectionViewCell" customModule="Pursuit_Core_iOS_Collection_View_Lab" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="countryCell" id="qY1-ol-3fg" customClass="FlagCollectionViewCell" customModule="Pursuit_Core_iOS_Collection_View_Lab" customModuleProvider="target">
                                         <rect key="frame" x="74.5" y="0.0" width="265" height="265"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JqF-Yg-7BI">
@@ -129,6 +129,12 @@
                         <viewLayoutGuide key="safeArea" id="Joz-Z5-DAp"/>
                     </view>
                     <navigationItem key="navigationItem" id="Sru-RV-xYh"/>
+                    <connections>
+                        <outlet property="capitalLabel" destination="vz7-xm-NeN" id="g8R-Gj-SAI"/>
+                        <outlet property="flagImage" destination="PP6-U0-uhB" id="jo7-rv-EIt"/>
+                        <outlet property="nameLabel" destination="i5d-Vo-dpH" id="3t3-Rc-EbS"/>
+                        <outlet property="populationLabel" destination="Yls-D3-oqt" id="g7I-2z-j0n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ve-br-74Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

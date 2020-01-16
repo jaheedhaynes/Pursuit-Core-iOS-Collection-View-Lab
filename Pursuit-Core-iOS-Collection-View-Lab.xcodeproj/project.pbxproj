@@ -19,6 +19,7 @@
 		301EC88F23CE525D0023F90E /* CountryAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EC88E23CE525D0023F90E /* CountryAPIClient.swift */; };
 		301EC89123CE527E0023F90E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EC89023CE527E0023F90E /* Country.swift */; };
 		30B0867E23CFEBAA0086330C /* FlagImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */; };
+		30B0868023CFFAA80086330C /* ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0867F23CFFAA80086330C /* ShowAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		301EC88E23CE525D0023F90E /* CountryAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAPIClient.swift; sourceTree = "<group>"; };
 		301EC89023CE527E0023F90E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImageAPIClient.swift; sourceTree = "<group>"; };
+		30B0867F23CFFAA80086330C /* ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				301EC87523CE4B650023F90E /* MainViewController.swift */,
 				301EC88523CE4EA50023F90E /* FlagCollectionViewCell.swift */,
 				301EC88723CE4FA00023F90E /* DetailViewController.swift */,
+				30B0867F23CFFAA80086330C /* ShowAlert.swift */,
 				301EC87723CE4B650023F90E /* Main.storyboard */,
 				301EC87A23CE4B660023F90E /* Assets.xcassets */,
 				301EC87C23CE4B660023F90E /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				30B0867E23CFEBAA0086330C /* FlagImageAPIClient.swift in Sources */,
 				301EC87623CE4B650023F90E /* MainViewController.swift in Sources */,
 				301EC88823CE4FA00023F90E /* DetailViewController.swift in Sources */,
+				30B0868023CFFAA80086330C /* ShowAlert.swift in Sources */,
 				301EC88F23CE525D0023F90E /* CountryAPIClient.swift in Sources */,
 				301EC89123CE527E0023F90E /* Country.swift in Sources */,
 				301EC87223CE4B650023F90E /* AppDelegate.swift in Sources */,
