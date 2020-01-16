@@ -42,7 +42,7 @@ class DetailViewController: UIViewController {
             fatalError("cant load image")
         }
         
-        FlagImageAPIClient.fetchImageURL(for: url) { [weak self](result) in
+        FlagImageAPIClient.fetchImageURL(for: url) { [weak self] (result) in
             switch result {
             case .failure(let appError):
                 print("\(appError)")
@@ -53,7 +53,4 @@ class DetailViewController: UIViewController {
             }
         }
     }
-
-    
-
 }

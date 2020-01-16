@@ -83,7 +83,7 @@
                                             <outlet property="countryCapital" destination="JWu-dd-ewn" id="CE2-sc-ZUy"/>
                                             <outlet property="countryName" destination="B0l-CO-Qsr" id="9HQ-LA-LKk"/>
                                             <outlet property="countryPopulation" destination="WYV-W5-cQt" id="Ek8-gd-4RE"/>
-                                            <outlet property="flagImageView" destination="0mR-S4-pgj" id="iJV-8o-H19"/>
+                                            <outlet property="flagImage" destination="0mR-S4-pgj" id="iJV-8o-H19"/>
                                             <segue destination="joh-mg-KgM" kind="show" id="Hpm-5T-nT8"/>
                                         </connections>
                                     </collectionViewCell>

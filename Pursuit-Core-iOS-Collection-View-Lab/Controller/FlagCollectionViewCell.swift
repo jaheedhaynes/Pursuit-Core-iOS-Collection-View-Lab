@@ -13,7 +13,7 @@ import ImageKit
 
 class FlagCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var flagImageView: UIImageView!
+    @IBOutlet weak var flagImage: UIImageView!
     @IBOutlet weak var countryName: UILabel!
     @IBOutlet weak var countryCapital: UILabel!
     @IBOutlet weak var countryPopulation: UILabel!
@@ -36,7 +36,7 @@ class FlagCollectionViewCell: UICollectionViewCell {
                 print("error \(appError)")
             case .success(let image):
                 DispatchQueue.main.async {
-                    self?.flagImageView.image = image
+                    self?.flagImage.image = image
                 }
             }
         }

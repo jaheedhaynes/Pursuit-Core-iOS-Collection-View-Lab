@@ -72,12 +72,9 @@
 			children = (
 				301EC87123CE4B650023F90E /* AppDelegate.swift */,
 				301EC87323CE4B650023F90E /* SceneDelegate.swift */,
-				301EC89023CE527E0023F90E /* Country.swift */,
-				301EC88E23CE525D0023F90E /* CountryAPIClient.swift */,
-				30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */,
-				301EC87523CE4B650023F90E /* MainViewController.swift */,
-				301EC88523CE4EA50023F90E /* FlagCollectionViewCell.swift */,
-				301EC88723CE4FA00023F90E /* DetailViewController.swift */,
+				30B0868323D01BA40086330C /* APIClient */,
+				30B0868223D01B930086330C /* Model */,
+				30B0868123D01B470086330C /* Controller */,
 				30B0867F23CFFAA80086330C /* ShowAlert.swift */,
 				301EC87723CE4B650023F90E /* Main.storyboard */,
 				301EC87A23CE4B660023F90E /* Assets.xcassets */,
@@ -85,6 +82,33 @@
 				301EC87F23CE4B660023F90E /* Info.plist */,
 			);
 			path = "Pursuit-Core-iOS-Collection-View-Lab";
+			sourceTree = "<group>";
+		};
+		30B0868123D01B470086330C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				301EC87523CE4B650023F90E /* MainViewController.swift */,
+				301EC88523CE4EA50023F90E /* FlagCollectionViewCell.swift */,
+				301EC88723CE4FA00023F90E /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30B0868223D01B930086330C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				301EC89023CE527E0023F90E /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30B0868323D01BA40086330C /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				301EC88E23CE525D0023F90E /* CountryAPIClient.swift */,
+				30B0867D23CFEBAA0086330C /* FlagImageAPIClient.swift */,
+			);
+			path = APIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
